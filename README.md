@@ -1,4 +1,3 @@
-
 # Kidnapped Vehicle Project
 This project implements a 2 dimensional **Particle Filter** in C++ applied to a kidnapped vehicle. The kidnapped vehicle problem creates significant issues with the vehicle's localization system, and only a subset of localization algorithms can successfully deal with the uncertainty created; it is commonly used to test a vehicle's ability to recover from catastrophic localization failures.
 The particle filter is given a map and some initial localization information (analogous to what a GPS would provide) map_data.txt in the data folder. The map_data.txt includes the position of landmarks (in meters) on an arbitrary Cartesian coordinate system. Each row has three columns
